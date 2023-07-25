@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var service = NewsService()
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+       
+        NavigationView {
+            
+            List(service.news) { element in
+                Text(element.title)
+            }
+          
+            .navigationTitle("News")
+            
         }
-        .padding()
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
