@@ -2,7 +2,7 @@
 
 A sleek and modern news app built using SwiftUI, delivering the latest news updates directly to your device. Stay informed with the most current headlines and stories from around the world.
 
-![NewsApp Screenshot](link-to-screenshot.png)
+https://github.com/user-attachments/assets/713b62f0-2c35-484a-bed2-3cafc7b92db3
 
 ## 📱 Features
 
